@@ -1,6 +1,5 @@
 package akka_experiments
 
-
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
@@ -14,7 +13,7 @@ import spray.json._
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContextExecutor, Future}
 
-object AkkaExperiments extends App {
+object ExperimentsServer extends App {
 
 
   val config = ConfigFactory.load()
